@@ -8,18 +8,33 @@
   .dashboard__container {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    background-color: #dcdcdc;
     padding: 30px;
   }
   .dashboard__btn {
+    height: 100%;
     padding: 10px;
     font-size: 18px;
-    margin-top: 10px;
+    margin-left: 10px;
     border: none;
     color: white;
     background-color: black;
   }
-  .dashboard div {
-    margin-top: 7px;
+  .Navbar{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc;
+    padding-left: 1rem;
+  }
+  .Details{
+    border-bottom: 1px solid;
+    display: flex;
+  }
+  .WebPhotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
   }
